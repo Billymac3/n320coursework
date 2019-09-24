@@ -1,0 +1,99 @@
+#top {
+  width: 1200px;
+  height: 200px;
+  background-color: darkblue;
+  animation: topBuildIn 0.7s;
+}
+
+h1 {
+  color: purple;
+}
+
+.card {
+  border: 1px solid #999;
+  border-radius: 4px;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+  padding: 1px;
+  animation: cardBuildIn 0.7s;
+  animation-fill-mode: both;
+  background-color: purple;
+}
+
+.cardOver {
+  animation: cardOverAnim 0.7s;
+  animation-fill-mode: both;
+}
+
+.cardOut {
+  animation: cardOutAnim 0.7s;
+  animation-fill-mode: both;
+}
+
+.cardExit {
+  animation: cardExitAnim 0.7s;
+  animation-fill-mode: both;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1200px;
+  margin: 5px;
+}
+
+@keyframes topBuildIn {
+  from {
+    opacity: 0;
+    transform: scale(0.2) rotateZ(130deg) rotateX(130deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cardBuildIn {
+  from {
+    opacity: 0;
+    transform: scale(0.2) rotateZ(130deg) rotateX(130deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cardOverAnim {
+  to {
+    opacity: 1;
+    background-color: green;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes cardOutAnim {
+  from {
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: red;
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    background-color: aqua;
+  }
+}
+
+@keyframes cardExitAnim {
+  from {
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: orange;
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
