@@ -1,0 +1,86 @@
+body {
+  background-color: #3a6479;
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+}
+#container {
+  margin: auto;
+  width: 1800px;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+a {
+  color: white;
+  text-align: center;
+  line-height: 145px;
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-IUPUI {
+  background-color: #7d110c;
+  width: 550px;
+  height: 145px;
+  text-align: center;
+  margin-bottom: 75px;
+  margin-right: 25px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+.category {
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  line-height: 120px;
+  width: 100%;
+}
+
+.category2 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  line-height: 120px;
+  width: 100%;
+}
+
+.jag1 {
+  float: right;
+  width: 45%;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #3a6479;
+}
+
+/* Mobile Size */
+
+@media only screen and (max-width: 600px) {
+  body {
+  }
+
+  #container {
+    width: 100%;
+  }
+  .button-IUPUI {
+    text-align: center;
+  }
+
+  .button-IUPUI {
+    background-color: #7d110c;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 13%;
+  }
+
+  footer {
+    height: 10%;
+  }
+}
