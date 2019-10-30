@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "type": "top three"
+  },
+  "candy": [
+    {
+      "name": "Kit Kat",
+      "rating": "good",
+      "chocolate": true,
+      "deliciousness": 70,
+      "types": [
+        "wasabi",
+        "white",
+        "cherry blossom",
+        "dark chocolate",
+        "milk chocolate"
+      ]
+    },
+    {
+      "name": "Peanut Butter",
+      "rating": "bad",
+      "chocolate": false,
+      "deliciousness": 60
+    },
+    {
+      "name": "Licorice",
+      "rating": "terrible",
+      "chocolate": false,
+      "deliciousness": 20
+    }
+  ]
+}

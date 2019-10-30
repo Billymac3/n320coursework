@@ -1,0 +1,23 @@
+{
+  "breakfastFoods": [
+    { "name": "waffle", "type": "grain", "size": "big", "texture": "soft" },
+
+    { "name": "bacon", "type": "meat", "size": "small", "texture": "crunchy" },
+
+    { "name": "eggs", "type": "meat", "size": "small", "texture": "soft" },
+
+    { "name": "sausage", "type": "meat", "size": "small", "texture": "soft" },
+    {
+      "name": "toast",
+      "type": "grain",
+      "size": "medium",
+      "texture": "crunchy"
+    },
+    {
+      "name": "orange juice",
+      "type": "fruit",
+      "size": "small",
+      "texture": "crunchy"
+    }
+  ]
+}
