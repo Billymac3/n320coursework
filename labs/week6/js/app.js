@@ -89,16 +89,16 @@ var app = new Vue({
           }
         }
       }
-    },
-    lowestMove: function(col) {
-      //start at the bottom of a col, loop upwards
-      for (var row = 5; row >= 0; row--) {
-        //check to see if current row is free
-        if (this.grid[row][col] == 0) {
-          //if it is free, return the row index
-          return row;
-        }
-      }
     }
+    // lowestMove: function(col) {
+    //   //start at the bottom of a col, loop upwards
+    //   for (var row = 5; row >= 0; row--) {
+    //     //check to see if current row is free
+    //     if (this.grid[row][col] == 0) {
+    //       //if it is free, return the row index
+    //       return row;
+    //     }
+    //   }
+    // }
   }
 });

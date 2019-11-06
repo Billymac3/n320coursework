@@ -1,0 +1,115 @@
+* {
+  font-size: 25px;
+}
+
+#app {
+  width: 600px;
+  height: 100%;
+  background-color: teal;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  padding-bottom: 20px;
+  animation: fadein 2.2s;
+}
+
+.turn {
+  height: 100px;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: tomato;
+  border-radius: 25px;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin: 0 auto;
+  background-color: tomato;
+  border-radius: 25px;
+  cursor: pointer;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  animation: scrollOverAnim 0.7s;
+  animation-fill-mode: both;
+}
+
+#winner {
+  height: 100px;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: tomato;
+  border-radius: 25px;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 2s;
+}
+
+.player {
+  height: 100px;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: tomato;
+  border-radius: 25px;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadein {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.04);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scrollOverAnim {
+  0% {
+    opacity: 1;
+    background-color: rebeccapurple;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    background-color: rebeccapurple;
+    transform: scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    background-color: rebeccapurple;
+    transform: scale(1);
+  }
+}
