@@ -2,6 +2,7 @@ var canvas = document.getElementById("renderCanvas"); // Get the canvas element
 var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
 var camera;
 
+// variables
 var cone, cone2, cone3, light, blueMat, GreenMat, whiteMat;
 var selectedMesh = null;
 
