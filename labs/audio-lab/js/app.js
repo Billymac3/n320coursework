@@ -1,11 +1,11 @@
 var soundButtons = document.getElementById("soundButtons");
 
 var sounds = [
-  { file: "chimes_long.mp3", name: "Chimes" },
-  { file: "click_clock_loop.mp3", name: "Click Clock" },
-  { file: "pop_10.mp3", name: "Pop" },
+  { file: "chimes_long.mp3", name: "Chimes Long" },
+  { file: "click_clock_loop.mp3", name: "Click Clock Loop" },
+  { file: "pop_10.mp3", name: "Pop 10" },
   { file: "puff.mp3", name: "Puff" },
-  { file: "rustle_5.mp3", name: "Rustle" }
+  { file: "rustle_5.mp3", name: "Rustle 5" }
 ];
 
 var soundElements = [];
@@ -14,7 +14,6 @@ var soundElements = [];
 sounds.forEach((soundURL, idx) => {
   // the sound
   var newSound = new Audio("sounds/" + soundURL.file);
-  //   var soundNames = ["Chimes", "Click Clock", "Pop", "Puff", "Rustle"];
 
   //   store each sound in an array for later reference
   soundElements.push(newSound);
